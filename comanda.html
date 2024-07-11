@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMANDA</title>
+    <link rel="stylesheet" href="comanda.css">
+    <link rel="shortcut icon"
+          href="headlogo1.png"
+          type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/271088f4a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "kqp_Rzc1D0hSncqON",
+  });
+})();
+</script>
+
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><h1>PORTOFOLIO</h1></a>
+        </div>
+        <div class="navbarbtn">
+        </div>
+            <div class="navbar">
+                <a href="about.html">Despre Autor</a>
+                <a href="comanda.html">Comandă</a>
+            </div>
+        <div class="lastbtn">
+            <a href="suport.html"><p>SUPPORT ME</p></a>
+        </div>
+    </div>
+
+
+    <div class="contactdiv">
+        <div class="contacth1">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="contactform">
+            <div class="firstinput">
+                <input type="text" id="nume" placeholder="Numele dumneavoastră" required>
+                <input type="text" id="email" placeholder="Email-ul" required>
+            </div>
+            <div class="secondinput">
+                <textarea id="mesaj" placeholder='Mesajul' cols="30" rows="5" required></textarea> 
+                <button onclick="SendMail()">Trimite</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="part1">
+            <h1>WE WOULD LOVE TO HEAR FROM YOU.</h1><br>
+            <h1>LET'S WORK — TOGETHER.</h1>
+            <a href="comanda.html">Comandă acum</a>
+        </div>
+        <div class="part2">
+            <div class="business">
+                <p>Contacte</p>
+                <a href="https://mail.google.com/mail/u/0/#inbox">dumitruonofrei556@gmail.com</a>
+                <a href="#">+373 788 43 877</a>
+            </div>
+            <div class="join">
+                <p>Mă găsiți</p>
+                <a href="#">instagram</a>
+                <a href="https://www.facebook.com/dimon.onofrei?locale=ro_RO">facebook</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="comanda.js"></script>
+</body>
+</html>
