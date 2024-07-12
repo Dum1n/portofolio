@@ -278,7 +278,7 @@ body{
 
 .navbar.scrolled.active{
     background-color: #fff;
-    height: 200px;
+    height: 100px;
     transition: all 0.3s;
 }
 
@@ -857,6 +857,7 @@ a{
     text-decoration: none;
     color: black;
     position: relative;
+    margin-right: auto;
 }
 
 .part2 .business a::before, .part2 .join a::before{
@@ -872,7 +873,7 @@ a{
     top: 20px;
     z-index: 1;
 }
-
+/*
 .part2 .business a:nth-last-child(2):before{
     content: '';
     position: absolute;
@@ -885,7 +886,7 @@ a{
     transform-origin: right;
     top: 20px;
     z-index: 1;
-}
+}*/
 
 .part2 .business a:hover::before,
 .part2 .join a:hover::before{
