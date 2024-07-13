@@ -163,6 +163,7 @@ body{
     height: 100px;
     transition: all 0.5s;
     margin-top: 100px;
+    z-index: 4;
 }
 
 .body{
@@ -264,6 +265,7 @@ body{
 
 .navbarbtn.scrolled{
     background-color: #fff;
+    z-index: 4;
 }
 
 .navbarbtn.scrolled::after{
@@ -280,6 +282,7 @@ body{
     background-color: #fff;
     height: 100px;
     transition: all 0.3s;
+    z-index: 4;
 }
 
 .navbar.scrolled a{
