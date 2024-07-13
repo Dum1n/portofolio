@@ -141,6 +141,7 @@ body{
     transform: translate(-50%,-50%);
     opacity: 0;
     transition: 0.5s;
+    z-index: 5;
 }
 
 .navbar a{
@@ -148,6 +149,7 @@ body{
     color: #fff;
     font-size: 20px;
     opacity: 0;
+    z-index: 5;
 }
 
 .navbar.active a{
@@ -155,6 +157,7 @@ body{
     color: #fff;
     font-size: 20px;
     opacity: 1;
+    z-index: 5;
 }
 
 .navbar.active{
@@ -163,7 +166,7 @@ body{
     height: 100px;
     transition: all 0.5s;
     margin-top: 100px;
-    z-index: 4;
+    z-index: 5;
 }
 
 .body{
@@ -265,7 +268,7 @@ body{
 
 .navbarbtn.scrolled{
     background-color: #fff;
-    z-index: 4;
+    z-index: 5;
 }
 
 .navbarbtn.scrolled::after{
@@ -282,11 +285,12 @@ body{
     background-color: #fff;
     height: 100px;
     transition: all 0.3s;
-    z-index: 4;
+    z-index: 5;
 }
 
 .navbar.scrolled a{
     color: #000000;
+    z-index: 5;
 }
 
 .lastbtn.scrolled p{
@@ -1079,10 +1083,14 @@ a{
         width: 100%;
         padding: 0;
     }
+    .titlep{
+        padding-right: 10px;
+    }
     .footer{
         flex-direction: column;
         justify-content: start;
         margin-top: -50px;
+        z-index: 3;
     }
     .part2{
         margin-top: 50px;
